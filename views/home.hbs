@@ -1,0 +1,22 @@
+<div>
+   <h1>Hello Word!</h1>
+   {{#each produtos}}
+   {{#if vitrine}}
+   <div>
+      <h1>Produdo nº{{id}}</h1>
+      <p>{{nome}}</p>
+      <P>{{descricao}}</p>
+      <p>{{preco}}</p>
+      <img src="{{foto}}" alt="imagem produto" width="200" height="200">
+      <form action="/deletar" method="post">
+         <input name="id" value="{{id}}" hidden>
+         <button>DELETAR</button>
+      </form>
+      <form action="/alterar" method="post">
+         <input name="id" value="{{id}}" hidden>
+         <button>ALTERAR</button>
+      </form>
+   </div>
+   {{/if}}
+   {{/each}}
+</div>

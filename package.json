@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "git": "^0.1.5",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
+    "mysql2": "^3.3.1",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",_
+    "sequelize": "^6.31.1"
+  }
+}
